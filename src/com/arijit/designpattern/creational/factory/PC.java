@@ -1,4 +1,4 @@
-package com.arijit.designpattern.factory;
+package com.arijit.designpattern.creational.factory;
 
 class PC implements Computer {
 	

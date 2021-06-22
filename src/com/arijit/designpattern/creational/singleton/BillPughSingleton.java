@@ -1,4 +1,4 @@
-package com.arijit.designpattern.singleton;
+package com.arijit.designpattern.creational.singleton;
 
 /**
  * Advantages :

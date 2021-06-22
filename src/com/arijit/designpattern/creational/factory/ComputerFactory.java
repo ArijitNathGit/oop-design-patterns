@@ -1,4 +1,4 @@
-package com.arijit.designpattern.factory;
+package com.arijit.designpattern.creational.factory;
 
 public class ComputerFactory {
 	public static Computer getComputer(String RAM, String CPU, String HDD, String type) {

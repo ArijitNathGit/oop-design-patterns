@@ -1,4 +1,4 @@
-package com.arijit.designpattern.builder;
+package com.arijit.designpattern.creational.builder;
 
 public class User {
 	
