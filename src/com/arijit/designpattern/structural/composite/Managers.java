@@ -16,7 +16,7 @@ public class Managers implements Employees {
 	}
 	
 	public void showDevelopers() {
-		allDevelopers.forEach(dev -> dev.printDetails());
+		allDevelopers.forEach(Employees::printDetails);
 	}
 	
 	public void addDeveloper(Employees developer) {

@@ -16,7 +16,7 @@ public class GeneralManager implements Employees {
 	}
 	
 	public void showManagers() {
-		allManagers.forEach(manager -> manager.printDetails());
+		allManagers.forEach(Employees::printDetails);
 	}
 	
 	public void addManager(Employees manager) {
