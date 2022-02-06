@@ -1,6 +1,6 @@
 package com.arijit.designpattern.behaviorial.observer;
 
 public interface Observer {
-	void update();
-	void setSubject(Subject sub);
+	void update(String message);
+	//void setSubject(Subject sub);
 }

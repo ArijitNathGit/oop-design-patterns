@@ -10,8 +10,8 @@ public class MyTopicSubscriber implements Observer {
 	}
 	
 	@Override
-	public void update() {
-		String message = this.topic.getUpdate();
+	public void update(String message) {
+		//String message = this.topic.getUpdate();
 		if("".equals(message)) {
 			System.out.println("No new Messages!");
 		}
@@ -21,9 +21,8 @@ public class MyTopicSubscriber implements Observer {
 		
 	}
 
-	@Override
-	public void setSubject(Subject sub) {
-		this.topic = sub;		
-	}
+	/*
+	 * @Override public void setSubject(Subject sub) { this.topic = sub; }
+	 */
 
 }

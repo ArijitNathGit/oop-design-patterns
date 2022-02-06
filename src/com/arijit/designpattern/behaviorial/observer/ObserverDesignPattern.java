@@ -12,9 +12,10 @@ public class ObserverDesignPattern {
 		topicSubject.register(ob2);
 		topicSubject.register(ob3);
 		
-		ob1.setSubject(topicSubject);
-		ob2.setSubject(topicSubject);
-		ob3.setSubject(topicSubject);
+		/*
+		 * ob1.setSubject(topicSubject); ob2.setSubject(topicSubject);
+		 * ob3.setSubject(topicSubject);
+		 */
 		
 		topicSubject.postMessage("Arijit");
 	}

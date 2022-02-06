@@ -25,7 +25,7 @@ public class MyTopicSubject implements Subject {
 	@Override
 	public void notifyObserver() {
 		for(Observer ob : observers) {
-			ob.update();
+			ob.update(this.message);
 		}		
 	}
 
